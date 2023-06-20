@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+nav {
+  background-color: #ccc;
+  padding: 20px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: #000;
+}
+main {
+  padding: 20px;
+}
+section {
+  margin-bottom: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th {
+  background-color: #ccc;
+  padding: 10px;
+}
+td {
+  padding: 10px;
+}
+footer {
+  background-color: #ccc;
+  padding: 20px;
+  text-align: center;
+}
