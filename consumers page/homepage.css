@@ -1,0 +1,279 @@
+/*general stuff*/
+body {
+    font-family: Arial;
+    padding:0;
+    margin:0;
+    background-color: #d1ecd2;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/* Header Style */
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /*alignment of flex*/
+    align-items: center;
+    
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin:5px 10px;
+}
+
+nav a {
+    color: #085833;
+    font-weight: bold;
+    text-transform: uppercase; /*transforms text to uppercase*/
+}
+
+nav a:hover {
+    color: #6eeb82;
+    
+}
+/*search bar in header*/
+.search-bar {
+    display: flex;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px; /*for rounded borders*/
+}
+
+.search-bar button {
+    padding: 10px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #085833;
+    color: #d1ecd2;
+    cursor: pointer; /*when we hover over it, cursor will turn to pointer*/
+}
+
+/* background image stuff */
+
+.back-image {
+    background-image: url(https://www.digitalcreed.in/wp-content/uploads/2019/02/farmer.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.back-image h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #030303;
+}
+
+.back-image p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: #030303;
+}
+
+.basic-button {
+    padding: 15px 30px;
+    background-color: #f2f2f2;
+    color:#030303;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.basic-button:hover {
+    background-color: #030303;
+    color:#f2f2f2;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+/* featured products style */
+
+.featured-products {
+    padding: 50px 0;
+}
+
+.featured-products h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.product-card {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 50%;
+    height: 50%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+.product-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.buy-button {
+    padding: 10px 20px;
+    background-color: #c4001a;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background-color:#fff;
+    color: #c4001a;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    cursor:pointer;
+}
+
+.more-button {
+    padding: 10px 20px;
+    background-color: #085833;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 610px;
+    margin-right: 610px;
+    text-align: center; 
+    display: flex;
+
+}
+.more-button:hover {
+    background-color: #fff;
+    color:#085833;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+/* articles style */
+
+.articles-card {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+}.articles-card img {
+    max-width: 50%;
+    height: 50%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.articles-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.articles-card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* jobs style */
+
+.jobs-card {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.jobs-card img {
+    max-width: 50%;
+    height: 50%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.jobs-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.articles-card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* about section stuff */
+
+.about-section {
+    background-color:  #085833;
+    padding: 50px 0;
+    text-align: center;
+}
+.about-section h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color:#fff;
+}
+
+.about-section p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color:#fff
+}
+
+.about-section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/*footer stuff*/
+
+footer {
+	background-color: #F8F8F8;
+	border-top: 1px solid #D8D8D8;
+	padding: 10px 0;
+	text-align: center;
+}

@@ -1,0 +1,132 @@
+/* general style */
+body {
+    font-family: Arial;
+    padding:0;
+    margin:0;
+    background-color: #d1ecd2;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/* header style */
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /*alignment of flex*/
+    align-items: center;
+    
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin:5px 10px;
+}
+
+nav a {
+    color:#085833;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #6eeb82;
+    
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px; /*for rounded borders*/
+}
+
+.search-bar button {
+    padding: 10px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #085833;
+    color: #d1ecd2;
+    cursor: pointer;
+}
+/* jobs style */
+.container {
+    
+    
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 0 20px;
+}
+.jobs {
+    
+    
+	padding: 50px 0;
+}
+
+.jobs ul {
+    
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.jobs li {
+    
+	border: 1px solid #f2f2f2;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+.jobs li:hover{
+    background-color: #085833;
+    color:#f2f2f2;
+}
+.jobs li h3 {
+	margin-top: 0;
+}
+
+.jobs li p {
+	margin: 10px 0;
+}
+
+.jobs li a {
+	background-color: #6eeb82;
+	color: black;
+	display: inline-block;
+	padding: 10px 20px;
+	text-align: center;
+    font-weight: bold;
+	transition: background-color 0.2s;
+    border-radius: 5px;
+}
+
+.jobs li a:hover {
+	background-color:#f2f2f2;
+    color:#085833
+}
+
+/* footer styles */
+footer {
+	background-color: #F8F8F8;
+	border-top: 1px solid #D8D8D8;
+	padding: 10px 0;
+	text-align: center;
+}

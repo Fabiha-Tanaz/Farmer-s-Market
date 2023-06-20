@@ -1,0 +1,170 @@
+/* general styles */
+
+body {
+    font-family: Arial;
+    padding:0;
+    margin:0;
+    background-color: #d1ecd2;
+}
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+}
+.search-bar {
+    display: flex;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px; /*for rounded borders*/
+}
+
+.search-bar button {
+    padding: 10px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #085833;
+    color: #d1ecd2;
+    cursor: pointer;
+}
+/* header style */
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /*alignment of flex*/
+    align-items: center;
+    
+}
+.logo img {
+    height: 50px;
+}
+nav ul {
+    display: flex;
+}
+
+ nav li {
+    margin:5px 10px;
+}
+
+nav a {
+    color: #085833;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #6eeb82;
+}
+
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px; /*for rounded borders*/
+}
+
+.search-bar button {
+    padding: 10px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #085833;
+    color: #d1ecd2;
+    cursor: pointer;
+}
+/*product showcase*/
+.thumbnail{
+    display: block;
+    width:300px; /*when we set the width, the height also adjusts
+    object-position: bottom;can set to left or right or contain too
+    object-fit: contain;
+     border-width:2px;
+    border-color:brown;
+    border-style:solid; */
+}
+.counter input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 5px 5px 5px; /*for rounded borders*/
+    width:30px;
+    
+}
+.counter{
+    margin-left:40px;
+}
+.showcase h1{
+    margin-left:600px;
+}
+.search-bar{
+    display: inline-block;
+    font-size: 20px;
+    margin-left:1px;
+}
+.showcase-preview{
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+    
+}
+
+.showcase-info{
+display:inline-block;
+width:200px;
+}
+
+.thumbnail-row{
+margin-bottom: 12px;
+}
+.showcase-info-grid{
+display:grid;
+grid-template-columns: 50px 1fr;
+margin-left: 50px;
+}
+.showcase-info{
+background-color: #D1ECD2;
+}
+.showcase-grid{
+margin-top:30px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+column-gap: 15px;
+row-gap: 40px;
+margin-left:20px;
+}
+.showcase-title{
+margin-left:40px;
+}
+.counter button {
+    padding: 10px 20px;
+    background-color: #c4001a;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.counter button:hover {
+    background-color:#fff;
+    color: #c4001a;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+footer {
+	background-color: #F8F8F8;
+	border-top: 1px solid #D8D8D8;
+	padding: 10px 0;
+	text-align: center;
+}
